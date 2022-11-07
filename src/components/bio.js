@@ -44,11 +44,9 @@ const Bio = () => {
       />
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
-          {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow them on Twitter
-          </a>
+          Things I've learned, collected in{" "}
+          <a href="https://github.com/luisjuarros/til">luisjuarros/til</a>.<br/>
+          You may also enjoy my <a href="https://luisjuarros.com/en/blog/">blog</a> and/or my <a href="https://twitter.com/LuisJuarros">twitter</a>.
         </p>
       )}
     </div>

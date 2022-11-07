@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Luis Juarros: TIL`,
     author: {
       name: `Kyle Mathews`,
       summary: `who lives and works in San Francisco building useful things.`,
@@ -99,7 +99,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "Luis Juarros: TIL RSS Feed",
           },
         ],
       },
@@ -107,7 +107,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `Luis Juarros: TIL`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
